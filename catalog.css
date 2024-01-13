@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #333;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding: 2px;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+a:hover{
+    background-color: #555;
+    color: #fff
+}
+.search-bar{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding:5px;
+}
+.catalog-container{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.filter-options{
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+.vertical-nav ul {
+    list-style: none;
+    padding: 0;
+}
+.vertical-nav li {
+    margin-bottom: 10px;
+}
+.vertical-nav a {
+    text-decoration: none;
+    color: #888;
+    display: block;
+    padding: 5px;
+    transition: color 0.3s, background-color 0.3s
+}
+.vertical-nav a:hover{
+    color: #007bff;
+    background-color: #e6e6e6;
+}
+.reset-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.reset-button:hover {
+    background-color: #0056b3
+}
+
+p {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+.catalog-book-listings{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.catalog-book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+.catalog-book:hover{
+    background-color: #f0f0f0;
+}
+.catalog-book img{
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+.catalog-book-details{
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+.catalog-book:hover h3{
+    color: #007bff;
+    text-decoration: underline;
+}
+p{
+  margin:0;
+  font-size: 16px;
+  color: #555;  
+}
+.load-more{
+    text-align: center;
+    margin-top: 20px;
+}
+button{
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #333;
+}
+.contact-item{
+
+}
